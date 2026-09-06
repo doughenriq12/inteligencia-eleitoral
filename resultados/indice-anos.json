@@ -1,0 +1,69 @@
+{
+ "anos": [
+  {
+   "ano": 2020,
+   "tipo": "municipal",
+   "cargos": [
+    "prefeito",
+    "vereador"
+   ],
+   "arquivos": {
+    "election": "election-data-2020.json",
+    "heat": "candidate-heat-data-2020.json"
+   },
+   "temTurno2": true,
+   "status": "pronto",
+   "municipios": "municipios-2020.json",
+   "municipiosHeat": "municipios-heat-2020.json"
+  },
+  {
+   "ano": 2022,
+   "tipo": "geral",
+   "cargos": [
+    "estadual",
+    "federal",
+    "senador",
+    "governador"
+   ],
+   "arquivos": {
+    "election": "election-data-2022.json",
+    "heat": "candidate-heat-data-2022.json"
+   },
+   "temTurno2": false,
+   "status": "pronto",
+   "municipios": "municipios-2022.json",
+   "municipiosHeat": "municipios-heat-2022.json"
+  },
+  {
+   "ano": 2024,
+   "tipo": "municipal",
+   "cargos": [
+    "prefeito",
+    "vereador"
+   ],
+   "arquivos": {
+    "election": "election-data-2024.json",
+    "heat": "candidate-heat-data-2024.json",
+    "perfis": "candidate-profiles-data-2024.json"
+   },
+   "temTurno2": true,
+   "status": "pronto",
+   "municipios": null
+  },
+  {
+   "ano": 2026,
+   "tipo": "geral",
+   "cargos": [
+    "estadual",
+    "federal",
+    "senador",
+    "governador"
+   ],
+   "arquivos": null,
+   "temTurno2": null,
+   "status": "pendente"
+  }
+ ],
+ "malhaBairros": "bairros_simplified.json",
+ "geoLocaisPorAno": "locais_geo_bairro_{ano}.csv"
+}
